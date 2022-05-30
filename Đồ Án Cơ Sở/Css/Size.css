@@ -1,0 +1,278 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+.z{
+    width: 100vw;
+    height: 100vh;
+}
+/* do ưu tiên hiện thị */
+.z .container{
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+}
+.z .truyen{
+    position: absolute;
+    z-index: 1;
+    top: 46px;
+    width: 100vw;
+    height: 50vw;
+}
+.container{
+    background-color: rgb(39, 40, 103);
+    padding: 5px 0px;
+}
+nav{
+    float: left;
+}
+.div1{
+    background-color: rgb(39, 40, 103);
+    padding-left: 100px;
+    margin: 0px 15px;
+}
+.div1 .a1 img{
+    display: block;
+    float: left;
+}
+/* danh sách và thể loại */
+.ds-tl{
+    float: right;
+    
+}
+.ds-tl ul{
+    text-align: center;
+    padding-left: 5px;
+    list-style-type: none;
+    background: rgb(39, 40, 103);
+}
+.ds-tl ul li{
+    display: inline-table;
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+.ds-tl ul li i{
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+.ds-tl ul li a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.ds-tl ul li a:hover{
+    background: sandybrown;
+    color: rgb(30, 52, 161);
+}
+/* danh sách */
+.ds-tl ul li > .ds{
+    display: none;
+    position: absolute;
+    transition: w 2s;
+}
+.ds-tl ul li:hover .ds{
+    display: block;
+}
+/* Thể loại */
+.ds-tl ul li > .tl{
+    display: none;
+    position: absolute;
+}
+.ds-tl ul li:hover .tl{
+    display: block; 
+}
+/* tìm kiếm */
+.seach{
+    display: inline-table;
+    margin-left: 150px;
+    width: 20vw;
+}
+input[type="search"]{
+    padding: 10px 40px;
+}
+.but{
+    display: table-cell;
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.seach > .but > .buton{
+    padding: 6.05px 10px;
+    border-left: 0;
+    border-radius: 0;
+}
+.but > .buton{
+    position: relative;
+    cursor: pointer;
+}
+.buton-defaul{
+    color: #333;
+    background-color: #fff;
+    /* border-color: #ccc;  */
+}
+.buton-defaul:hover{
+    background-color: rgba(213, 207, 207, 0.986);
+}
+.but:last-child > .buton{
+    z-index: 2;
+    margin-left: -1px;
+}
+.seach > .form-control:focus{
+    outline: 0;
+}
+.seach > .form-control{
+    height: 32px;
+    padding: 6px 38px;
+    border-right: 0;
+    border-radius: 0;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+/* com */
+.truyen{
+    background-image: url(../Anh/bg.jpg);
+}
+.div2{
+    background-color: rgb(142, 133, 133);
+    color: white;
+    padding-left: 130px;
+    font-size: 20px;
+    padding-right: 90px;
+}
+/* tieude */
+.tieude h2{
+    color: black;
+    text-align: left;
+    padding-left: 200px;
+}
+.tieude a{
+    color: black;
+    text-align: left;
+}
+
+.trang-anh .anh .text h2{
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    display: inline-block;
+}
+/* trang ảnh */
+.trang-anh{
+    margin-right: 10vw;
+    margin-left: 5vw;
+    overflow: hidden;
+}
+.trang-anh .anh{
+    overflow: hidden;
+    position: relative;
+}
+.trang-anh .img{
+    transition: all 1s;
+}
+.trang-anh .anh:hover .img{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+/* ảnh 1 */
+.trang-anh .anh.anh1{
+    margin-left: 153px;
+    width: 240px;
+    height: 397px;
+}
+.trang-anh .anh.anh1 .ttxtt{
+    width: 240px;
+    height: 397px;
+}
+.anh1 .text{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    bottom: 12px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    display: inline-block;
+}
+/* ảnh 2 3 4 5 6 7 8 9 10 11 12 13 */
+.trang-anh .anh{
+    float: left;
+    margin: 12px 0 0 12px;
+    height: 192px;
+    width: 129px;
+    position: relative;
+    transition: all .1s ease-in-out;
+}
+.trang-anh .anh .img{
+    box-shadow: 0 1px 2px #b5b5b5;
+    width: 129px;
+    height: 192px;
+}
+.trang-anh div.text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #f4f4f4;
+    background-color: rgba(0,0,0,0.6);
+    padding: 5px 0;
+    text-shadow: 1px 2px 2px #000;
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+    text-align: center;
+    font-family: "Roboto Condensed",Tahoma,sans-serif;
+}
+/* tieu đề đưới */
+#nd-duoi > .tieudeduoi1{
+    font-size: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px; */
+    margin-left: 200px;
+    margin-right: 200px;
+    overflow: hidden;
+    /* float: left; */
+}
+#nd-duoi > .tieudeduoi2{
+    text-align: center;
+}
+#nd-duoi > .tieudeduoi2 > .ttd{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 6px;
+    color: rgb(69, 69, 216);
+    text-decoration: none;
+    list-style-type: none;
+}
+#nd-duoi > .tieudeduoi2 > .ttd:hover{
+    background-color: aqua;
+    color: crimson;
+}
+.ds-tl ul li > i{
+    position: absolute;
+    z-index: 10;
+}
+@media(max-width: 992px){
+    .seach{
+        display: none;
+    }
+}
+@media(max-width: 992px){
+    .anh8, .anh9, .anh10, .anh11, .anh12, .anh13{
+        display: none;
+    }
+}

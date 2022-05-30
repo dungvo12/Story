@@ -1,0 +1,125 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+.truyen1 > .div2{
+    background-color: burlywood;
+}
+div{
+    display: block;
+}
+.z .truyen1{
+    position: absolute;
+    z-index: 1;
+    top: 47px;
+    width: 100vw;
+    height: 70.5vw;
+    background: url(../Anh/bg.jpg) top center repeat-x #f4f4f4b4;
+    background-size: 100vw 30vw;
+}
+
+
+/* .cha{
+    border: 1px solid black;
+    width: 90%;
+    margin: 10vw 5vw;
+} */
+.cha > .noidung {
+    width: 80%;
+    margin: 0vw 14vw;
+}
+.cha > .noidung > p{
+    padding-right: 15vw;
+    font-size: 20px;
+}
+.thongtin{
+    width: 80%;
+    border-bottom: 3px dashed #ccc;
+    margin: 4vw 10vw;
+    height: 290px;
+    display: block;
+}
+.thongtinanh{
+    border-bottom: 1px dashed #ccc;
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 250px;
+    float: left;
+    margin-left: 5%;
+}
+.thongtinanh > img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.thongtinchu{
+    border-bottom: 1px dashed #ccc;
+    /* border: 1px solid black; */
+    margin-left: 25%;
+    width: 75%;
+    height: 250px;
+}
+.khung{
+    /* border: 2px solid black; */
+    margin: 1.5vw 2vw;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.author{
+    font-style: italic;
+    display: block;
+    margin-top: 25px;
+    font-size: 18px;
+}
+.author > .glyphicon.glyphicon-pencil {
+    font-size: 11px;
+}
+.title-truyen{
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+h3{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    display: inline;
+}
+.thongtinchu a{
+    color: #4e4e4e;
+    text-decoration: none;
+    background-color: transparent;
+}
+.thongtinchu a:hover{
+    text-decoration: underline;
+}
+.content{
+    margin-top: 20px;
+    font-size: 18px;
+    padding-right: 5vw;
+}
+.content .test-chapter{
+    margin-top: 20px;
+    display: block;
+    font-size: 18px;
+}
+.test-chapter > a{
+    color: black;
+}
+.nd{
+    background-color: rgb(242, 239, 239);
+    width: 100%;
+}

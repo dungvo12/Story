@@ -1,0 +1,313 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.z .truyen1{
+    width: 100vw;
+    /* height: 50vw; */
+    background-image: none;
+    background-color: rgb(232, 235, 238);
+    background-size: 100vw 110vw;
+    padding-bottom: 5vw;
+}
+.main1{
+    margin-top: 3vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+/* tiêu đề */
+.story-title{
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+.main1 .story-title .tieude{
+    display: table;
+    font-size: 24px;
+    margin: 0 auto 5px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed",Tahoma,sans-serif;
+    color: #690;
+}
+.main1 a:hover{
+    text-decoration: none;
+}
+/* chaper */
+.main1 h2{
+    font-size: inherit;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.main1 h2 .chaper-title{
+    color: gray;
+    font-size: 20px;
+    display: table;
+    margin: 0 auto 15px;
+
+}
+/* thẻ i */
+.the-i{
+    display: flex;
+    justify-content: center
+}
+.z .truyen1 .main1 .the-i > i{
+    position: absolute;
+    z-index: 20;
+    font-size: 40px;
+}
+/* chương */
+.chapter{
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.chuong{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.chuong > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.chuong > .btn:first-child {
+    margin-left: 0;
+}
+.chapter .chuong a{
+    width: 170px;
+}
+a.btn.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: .65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn.disabled{
+    opacity: .35;
+    filter: alpha(opacity=35);
+}
+.chuong > .btn{
+    position: relative;
+    float: left;
+}
+.btn-chapter{
+    padding: 11px 22px;
+    font-size: 16px;
+    height: 47px;
+}
+.btn-colo{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid black;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 5px;
+}
+.btn:hover{
+    background-color: rgba(66, 206, 23, 0.858);
+}
+.font{
+    font-size: 20px;
+}
+.chuong a > i{
+    padding-top: 6px;
+    font-size: 20px;
+}
+/* chương 2 */
+.chapter .chuong .chapt-control {
+    margin: 0 5px;
+    text-align: left;
+}
+.chapter .form-control {
+    width: 205px;
+}
+.chuong > .btn{
+    position: relative;
+    float: left;
+}
+.form-control{
+    box-shadow: none;
+    font-size: 18px;
+}
+.font1{
+    font-size: 20px;
+}
+
+/*  */
+.glgyphicon {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+}
+.chuong > a:hover{
+    color: white;
+}
+/* icon */
+.main1 hr.chapter-end{
+    width: 277px;
+    height: 90px;
+    border: 0;
+    margin: 10px auto;
+    display: table;
+    background-image: url(../Anh/anh-icon.png);
+    margin-bottom: 5vw;
+}
+/* icon1 */
+.main1 hr.chapter-end1{
+    width: 277px;
+    height: 90px;
+    border: 0;
+    margin: 10px auto;
+    display: table;
+    background-image: url(../Anh/anh-icon.png);
+    margin-top: 5vw;
+}
+/* chữ */
+.truyen1 .chapter-c{
+    font-family: "Palatino Linotype","Arial","Times New Roman",sans-serif;
+    line-height: 180%;
+    color: #2b2b2b;
+    font-size: 22px;
+    text-align: left;
+    word-wrap: break-word;
+}
+#chapter-c p{
+    margin: 0 0 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+}
+/* chương p1 */
+.chuong > .btn1:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.chuong > .btn1:first-child {
+    margin-left: 0;
+}
+.chapter .chuong a{
+    width: 170px;
+}
+.chuong > .btn1{
+    position: relative;
+    float: left;
+}
+.btn1{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid black;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 5px;
+}
+/*  */
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    text-align: left;
+}
+/*  */
+#chapter-title1{
+    padding-bottom: 4vw;
+}
+/* nd */
+.nd{
+    display: flex;
+    justify-content: center;
+    margin-right: 20vw;
+    height: 150px;
+    width: 90vw;
+}
+.nd .tieudeduoi1{
+    font-size: 30px;
+    /* height: 3vw; */
+    width: 100vw;
+    margin-left: 100px;
+    margin-right: 1px;
+    /* overflow: hidden;
+    float: left; */
+}
+.nd .tieudeduoi1 > h5{
+    font-weight: 200;
+}
+.nd .tieudeduoi2{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    /* height: 20vw; */
+    width: 100vw;
+}
+.nd .tieudeduoi2 .ttd{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: rgb(8, 187, 88);
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nd .tieudeduoi2 a{
+    margin: 2vw 1.5vw;
+}
+.nd .tieudeduoi2 > .tieudeduoi2-1{
+    margin-bottom: 3vw;
+}
+.nd .tieudeduoi2 > .tieudeduoi2-2{
+    margin-top: 2vw;
+}
+.nd .tieudeduoi2 .ttd:hover{
+    background-color: aqua;
+    color: crimson;
+}

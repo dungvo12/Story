@@ -1,0 +1,215 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.truyen1 > .div2{
+    background-color: burlywood;
+}
+div{
+    display: block;
+}
+.z .truyen1{
+    position: absolute;
+    z-index: 1;
+    top: 46.5px;
+    width: 100vw;
+    /* height: 50vw; */
+    background-image: url(../Anh/bg.jpg);
+    background-size: 100vw 120vw;
+}
+/* Ảnh */
+.holder{
+    float: left;
+    margin-left: 14vw;
+    margin-right: 6vw;
+}
+.books{
+    box-shadow: 9px 3px;
+}
+.book{
+    box-shadow: -4px -5px;
+}
+/*  */
+.story{
+    text-align: center;
+    font-size: 27px;
+}
+.mota{
+    font-size: 20px;
+    margin-top: 3vw;
+    display: inline-block;
+    overflow: hidden;
+}
+i{
+    float: left;
+}
+h3{
+    display: inline;
+}
+
+.mota1{
+    padding: 17px 1px;
+}
+.mt{
+    padding: 12px 1px;
+}
+a{
+    color: #382f2f;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.nav > li > a:hover{
+    text-decoration: none;
+}
+.gt-ds{
+    padding-top: 15px;
+}
+
+/* giới thiệu và danh sách */
+.navbar-nav {
+    font-family: "Roboto Condensed",sans-serif;
+}
+.navbar-mucluc.navbar-nav {
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.navbar-mucluc.navbar-nav > li {
+    margin-right: 13px;
+    display: inline-block;
+    width: 33%;
+}
+@media (min-width: 992px)
+{
+    .navbar-nav > li {
+        float: left;
+    }
+}
+.nav > li {
+    position: relative;
+    display: block;
+}
+.navbar-mucluc.navbar-nav:not(.fixed)>li>a {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: #ddd;
+    font-size: 18px;
+}
+
+.navbar-mucluc.navbar-nav > li > a {
+    padding: 10px 13px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.navbar-mucluc.navbar-nav:not(.fixed)>li>a:hover{
+    background-color: antiquewhite;
+}
+/* đọc truyện */
+.navbar-mucluc.navbar-nav:not(.fixed)>li>.dt {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: rgb(227, 77, 77);
+    font-size: 18px;
+}
+.navbar-mucluc.navbar-nav:not(.fixed)>li>.dt:hover{
+    background-color: rgb(227, 77, 77);
+    color: rgb(0, 0, 0);
+}
+.gt-ds ul li > i{
+    position: absolute;
+    z-index: 10;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* Phần giới thiệu */
+.title-gt > h2{
+    font-family: "Roboto Condensed",Tahoma,sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 100%;
+    border-bottom: 1px solid #4e4e4e;
+}
+h2{
+    
+    font-size: inherit;
+    display: inline-block;
+}
+.title-chung{
+    margin-left: 14vw;
+    padding: 0;
+}
+.title-chung .title-text > p{
+    margin: 12px 1px;
+    font-size: 18px;
+}
+/* Phần Danh Sách */
+.title-ds > h2{
+    font-family: "Roboto Condensed",Tahoma,sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 100%;
+    border-bottom: 1px solid #4e4e4e;
+}
+h2{
+    
+    font-size: inherit;
+    display: inline-block;
+}
+.title-chung1{
+    margin-left: 14vw;
+    padding: 0;
+}
+.title-chung1 .row ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 12px;
+}
+.title-chung1 .row ul li > a{
+    padding-left: 10px;
+}
+.title-chung1 > .row{
+    margin: 0;
+    font-family: "Roboto Condensed",Tahoma,sans-serif;
+}
+.title-chap > li{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.title-chap > li > a{
+    font-size: 20px;
+    line-height: 18px;
+    display: inline;
+    margin: 0;
+    font-weight: bold;
+}
+/* caca */
+.book > #anh{
+    width: 250px;
+    height: 340px;
+}
+/* dla */
+.title-chung1{
+    padding-bottom: 5vw;
+}
